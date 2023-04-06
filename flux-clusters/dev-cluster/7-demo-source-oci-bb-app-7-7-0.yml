@@ -8,7 +8,7 @@ spec:
   interval: 1m0s
   provider: generic
   ref:
-    tag: 7.7.0-xxxxxxxxxxxxxxxxxxxx
+    tag: 7.7.0-0bb2691
   secretRef:
     name: ghcr-auth
   url: oci://ghcr.io/sidd-harth-2/bb-app
