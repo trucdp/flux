@@ -5,7 +5,7 @@ metadata:
   name: infra-database-kustomize-git-mysql
   namespace: flux-system
 spec:
-  interval: 1m40s
+  interval: 10s
   path: ./database
   prune: true
   sourceRef:
