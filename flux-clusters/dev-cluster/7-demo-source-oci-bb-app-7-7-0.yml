@@ -1,0 +1,15 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: OCIRepository
+metadata:
+  name: 7-demo-source-oci-bb-app-7-7-0
+  namespace: flux-system
+spec:
+  interval: 1m0s
+  provider: generic
+  ref:
+    tag: 7.7.0-xxxxxxxxxxxxxxxxxxxx
+  secretRef:
+    name: ghcr-auth
+  url: oci://ghcr.io/sidd-harth-2/bb-app
+
