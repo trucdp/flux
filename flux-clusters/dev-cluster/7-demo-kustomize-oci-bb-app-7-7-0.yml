@@ -9,7 +9,7 @@ spec:
   - name: infra-database-kustomize-git-mysql
   healthChecks:
   - kind: Deployment
-    name: block-buster-deployment-7-7-0
+    name: block-buster-7-7-0
     namespace: 7-demo
   interval: 10s
   path: ./
